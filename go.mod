@@ -45,6 +45,7 @@ require (
 	k8s.io/client-go v2.0.0-alpha.0.0.20181126152608-d082d5923d3c+incompatible
 	k8s.io/code-generator v0.0.0-20180823001027-3dcf91f64f63
 	k8s.io/gengo v0.0.0-20190128074634-0689ccc1d7d6
+	k8s.io/klog v0.2.0
 	k8s.io/kube-openapi v0.0.0-20180711000925-0cf8f7e6ed1d
 	sigs.k8s.io/controller-runtime v0.1.12
 	sigs.k8s.io/controller-tools v0.1.10

@@ -13,8 +13,9 @@ type AppASpec struct {
 	// INSERT ADDITIONAL SPEC FIELDS - desired state of cluster
 	// Important: Run "operator-sdk generate k8s" to regenerate code after modifying this file
 	// Add custom validation using kubebuilder tags: https://book.kubebuilder.io/beyond_basics/generating_crd.html
-	Name string `json:"name,omitempty"`
-	Size int    `json:"size,omitempty"`
+	// +kubebuilder:type:string
+	Name string `json:"name"`
+	Size int    `json:"size"`
 }
 
 // AppAStatus defines the observed state of AppA
